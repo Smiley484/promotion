@@ -1,0 +1,122 @@
+nav img {
+    height: 10%;
+    width: 10%;
+    margin-left: 9%;
+}
+
+#home {
+    margin-left: 9%;
+    width: 15%;
+}
+
+#about {
+    margin-left: 9%;
+    width: 15%;
+
+}
+
+#project {
+    margin-left: 9%;
+    width: 15%;
+
+}
+
+.nav-div {
+    width: 50%;
+    background-color: #d9d9d9;
+    padding: 1rem;
+    margin: 1rem 0 2rem 25%;
+    border-radius: 15px;
+}
+
+body {
+    alignment: center;
+    text-align: center;
+}
+
+.img {
+    height: 400px;
+}
+
+.slider {
+    left: 25%;
+}
+
+.carousel-inner {
+    height: 450px;
+    background-color: #d9d9d9;
+    padding-top: 10px;
+    border-radius: 15px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    outline: black;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+    content: '>';
+    font-size: 55px;
+    color: black;
+}
+
+.carousel-control-prev-icon:after {
+    content: '<';
+    font-size: 55px;
+    color: black;
+}
+
+h1 {
+    padding-bottom: 1rem;
+}
+
+.link {
+    margin: auto;
+}
+
+.me {
+    alignment: center;
+    width: 50%;
+    margin: 1rem auto;
+    background-color: #eeeeee;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.project {
+    alignment: center;
+    width: 50%;
+    margin: 1rem auto;
+    background-color: #eeeeee;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+table {
+    width: 100%;
+}
+
+table tr td {
+    width: 50%;
+}
+
+td:nth-child(odd) {
+    text-align: right;
+    padding: 1rem;
+}
+
+td:nth-child(even) {
+    text-align: left;
+    padding: 1rem;
+}
+
+.project img {
+    height: 200px;
+}
